@@ -1,48 +1,48 @@
 export const siteConfig = {
-  author: 'Rock Chen',
-  title: 'Rock Chen - Blog',
+  author: 'xgli',
+  title: 'xgli - Blog',
   description: 'My blog site.',
   lang: 'zh-CN',
 }
 
 export const subNavLinks = [
   {
-    title: 'Blog',
+    title: '首页',
     path: '/blog',
   },
   {
-    title: 'Life',
+    title: '随笔',
     path: '/life',
   },
   {
-    title: 'Record',
+    title: '笔记',
     path: '/record',
   },
 ]
 
 export const navLinks = [
   {
-    title: 'Blog',
+    title: '首页',
     path: '/blog',
     icon: 'i-icon-park-outline-align-text-right-one',
   },
   {
-    title: 'Projects',
+    title: '项目',
     path: '/projects',
     icon: 'i-icon-park-outline-blocks-and-arrows',
   },
   {
-    title: 'Tags',
+    title: '标签',
     path: '/tags',
     icon: 'i-icon-park-outline-tag-one',
   },
   {
-    title: 'Search',
+    title: '搜索',
     path: '/search',
     icon: 'i-icon-park-outline-search',
   },
   {
-    title: 'About',
+    title: 'Me',
     path: '/',
     icon: 'i-icon-park-outline-grinning-face-with-open-mouth',
   },
@@ -51,23 +51,13 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    title: '掘金',
-    path: 'https://juejin.cn/user/3826745248595550',
+    title: 'gitee',
+    path: 'https://gitee.com/lixuguangg',
     icon: 'i-simple-icons-juejin',
   },
   {
-    title: 'Bilibili',
-    path: 'https://space.bilibili.com/3850132',
-    icon: 'i-simple-icons-bilibili',
-  },
-  {
-    title: 'Twitter',
-    path: 'https://twitter.com/Rockchen97',
-    icon: 'i-simple-icons-twitter',
-  },
-  {
     title: 'Github',
-    path: 'https://github.com/chansee97',
+    path: 'https://github.com/lixuguang001',
     icon: 'i-icon-park-outline-github',
   },
 ]
@@ -77,29 +67,19 @@ export const projectList = [
     name: 'Projects',
     content: [
       {
-        name: 'Nuxt Blog',
-        desc: 'My blog site, base on Nuxt',
-        path: 'https://github.com/chansee97/nuxt-blog',
+        name: 'myh5',
+        desc: 'H5快速开发模版',
+        path: 'https://gitee.com/lixuguangg/myh5',
       },
       {
-        name: 'Nova Admin',
-        desc: 'a complete admin template',
+        name: 'mypc',
+        desc: 'pc快速开发模版',
         path: 'https://github.com/chansee97/nova-admin',
       },
       {
-        name: 'Nova Admin Nest',
-        desc: 'The nest backend for nova admin',
-        path: 'https://github.com/chansee97/nove-admin-nest',
-      },
-    ],
-  },
-  {
-    name: 'Starter',
-    content: [
-      {
-        name: 'Virtuoso',
-        desc: 'My simply vue starter',
-        path: 'https://github.com/chansee97/virtuoso',
+        name: 'myWxMiniApp',
+        desc: '微信小程序快速开发模版',
+        path: 'https://gitee.com/lixuguangg/my-wx-mini-app',
       },
     ],
   },
